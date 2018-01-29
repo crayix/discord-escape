@@ -1,0 +1,42 @@
+.App {
+	background-color:#222;
+	text-align: center;
+}
+
+.App-logo {  
+  height: 150px;
+}
+
+.blankspace {
+	margin:40px;
+}
+
+.submitbox {
+	  justify-content: center;
+	  display:block;
+	  margin: 0 auto;
+}
+
+.texts {
+	width:90%;
+}
+
+.form-stuff {
+	margin-top:60px;
+	margin:30px;
+}
+
+.App-header {
+  background-color: #f3f3f3;
+  height: 150px;
+  padding: 20px;
+  color: #f3f3f3;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
