@@ -22,11 +22,9 @@ class App extends Component {
     var text = this.state.value;
     text = text.replace(/\*/g,"\\*")
     console.log(text);
-    text = text.replace(/`/g, "\\`")
+    text = text.replace(/\`/g, "\\`")
     console.log(text);
-    text = text.replace(/_/g, "\\_")
-    console.log(text);
-    text = text.replace(/_/g, "\\_")
+    text = text.replace(/\_/g, "\\_")
     console.log(text);
 
     ///fix first line
