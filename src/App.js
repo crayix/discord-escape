@@ -20,6 +20,8 @@ class App extends Component {
 
   handleSubmit(event) {
     var text = this.state.value;
+    text = text.replace(/\\/g, "\\\\")
+    console.log(text);
     text = text.replace(/\*/g,"\\*")
     console.log(text);
     text = text.replace(/\`/g, "\\`")
